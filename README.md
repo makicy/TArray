@@ -27,6 +27,6 @@ $array = new TArray([1, 2, 3]);
 // return [3, 2, 1]
 $result = $array->valueDescend()->all();
 
-// return [1, 4, 9]
+// return [2, 4, 6]
 $result = $array->map(fn (int $_, int $value) => $value*2)->all();
 ```
