@@ -1,0 +1,8 @@
+{
+  "name": "makicim/tarray",
+  "autoload": {
+    "psr-0": {
+      "\\makicim\\tarray\\": "src/"
+    }
+  }
+}
